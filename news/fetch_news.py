@@ -14,16 +14,24 @@ NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 BASE_URL = "https://newsapi.org/v2/everything"
 
 CATEGORIES = {
-    "IT/테크": {
-        "q": "AI OR 인공지능 OR 테크 OR 스타트업 OR 반도체",
+    "💻 IT/과학": {
+        "q": "AI OR 인공지능 OR 반도체 OR 개발자 OR 클라우드 OR 빅데이터 OR 사이버보안",
         "language": "ko",
     },
-    "국내 주요": {
-        "q": "정치 OR 경제 OR 사회",
+    "🚀 스타트업/테크": {
+        "q": "스타트업 OR 유니콘 OR 투자 OR 시리즈A OR 시리즈B OR 앱 OR 플랫폼",
         "language": "ko",
     },
-    "비즈니스/스타트업": {
-        "q": "스타트업 OR 투자 OR 창업 OR 비즈니스",
+    "💼 취업/채용": {
+        "q": "취업 OR 채용 OR 구직 OR 이직 OR 신입 OR 공채 OR 커리어",
+        "language": "ko",
+    },
+    "💰 경제": {
+        "q": "주식 OR 코스피 OR 환율 OR 금리 OR 부동산 OR 물가 OR 경기",
+        "language": "ko",
+    },
+    "🌏 사회": {
+        "q": "정책 OR 정부 OR 사회 OR 교육 OR 복지",
         "language": "ko",
     },
 }
